@@ -24,7 +24,9 @@ There are different computer vision algorithms available to us which will blur t
 
 When you need information about a specific color, you can take out the color you want.
 
-This process is called **color filtering**. We can define a range of color which we want to focus at. For example – if you want to track a tennis ball in an image, we can filter out only green color from the image. This computer vision technique works better when the color that needs to be extracted is different from the background. Let’s see how to implement color filtering in your application.
+This process is called **color filtering**. We can define a range of color which we want to focus at. For example – if you want to track a tennis ball in an image, we can filter out only green color from the image. This computer vision technique works better when the color that needs to be extracted is different from the background. 
+
+*How to implement color filtering in your application.*
 
 **Step 1: Convert the color image into HSV which is Hue Saturation Value**
 
