@@ -15,9 +15,9 @@ There are different computer vision algorithms available to us which will blur t
 
 **There are four different types of functions available for blurring:**
 
-**cv2.blur() – This function takes average of all the pixels surrounding the filter. It is a simple and fast blurring technique.
-cv2.GaussianBlur() – Gaussian function is used as a filter to remove noise and reduce detail. It is used in graphics software and also as a preprocessing step in machine learning and deep learning models.
-cv2.medianBlur() – This function uses median of the neighbouring pixels. Widely used in digital image processing as under certain conditions, it can preserve some edges while removing noise.
-cv2.bilateralFilter() – In this method, sharp edges are preserved while the weak ones are discarded.**
+**cv2.blur()** – This function takes average of all the pixels surrounding the filter. It is a simple and fast blurring technique.<br>
+**cv2.GaussianBlur()** – Gaussian function is used as a filter to remove noise and reduce detail. It is used in graphics software and also as a preprocessing step in machine learning and deep learning models.<br>
+**cv2.medianBlur()** – This function uses median of the neighbouring pixels. Widely used in digital image processing as under certain conditions, it can preserve some edges while removing noise.<br>
+**cv2.bilateralFilter()** – In this method, sharp edges are preserved while the weak ones are discarded.<br>
 
 #
