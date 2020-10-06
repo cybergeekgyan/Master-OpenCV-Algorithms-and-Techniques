@@ -20,4 +20,22 @@ There are different computer vision algorithms available to us which will blur t
 **cv2.medianBlur()** – This function uses median of the neighbouring pixels. Widely used in digital image processing as under certain conditions, it can preserve some edges while removing noise.<br>
 **cv2.bilateralFilter()** – In this method, sharp edges are preserved while the weak ones are discarded.<br>
 
-#
+# Color Filtering
+
+When you need information about a specific color, you can take out the color you want.
+
+This process is called **color filtering**. We can define a range of color which we want to focus at. For example – if you want to track a tennis ball in an image, we can filter out only green color from the image. This computer vision technique works better when the color that needs to be extracted is different from the background. Let’s see how to implement color filtering in your application.
+
+**Step 1: Convert the color image into HSV which is Hue Saturation Value**
+
+**HSV** is also another way of representing a color. It is easier to specify a color range in HSV format that is why OpenCV expects us to specify the range in this format. Hue is for color (0- 179), Saturation is for the strength of color (0-255) and Value is for the different lighting conditions from low to high (0-255).
+
+**Step 2: Create the mask**
+
+OpenCV provides us with cv2.inRange() function. The first parameter contains the HSV image, the second parameter has a numpy array with lower bound of the color we want to extract and the third parameter contains the upper bound of the color.
+
+**Note**: The upper and lower bound of color should be in HSV value. The mask contains only the 0 and 1 values representing black and white respective.
+
+**Step 3: Perform bitwise ‘and’ operation**
+
+At last, we perform bitwise ‘and’ operation on the original image and the mask image to get only the color we want.
