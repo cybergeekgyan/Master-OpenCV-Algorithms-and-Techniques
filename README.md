@@ -41,3 +41,15 @@ OpenCV provides us with cv2.inRange() function. The first parameter contains the
 **Step 3: Perform bitwise ‘and’ operation**
 
 At last, we perform bitwise ‘and’ operation on the original image and the mask image to get only the color we want.
+
+# Edge Detection
+
+Edges are a sudden change in the brightness of the image. The significant transitions in the brightness of the image are used to calculate the edges in an image. Edge detection is used for various image processing purposes. One of them is to sharpen the images. Sharpening of images is done to make the images more clear. Edge detection is used to enhance the images and image recognition becomes easier.
+
+The canny edge detection algorithm is mostly used to detect the edges in an image.
+
+OpenCV contains the function cv2.Canny() for edge detection.
+
+cv2.Canny(img, 50, 150)
+
+First parameter is the image data, the second parameter is the lower threshold value and the third parameter is the upper threshold value. You need to try different values for tuning the edge detection algorithm.
