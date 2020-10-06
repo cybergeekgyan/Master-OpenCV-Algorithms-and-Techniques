@@ -1,10 +1,17 @@
 # OpenCV-Techniques
 
+
+# Thresholding
+
 Thresholding is a basic concept in computer vision. It is widely used in image processing.
 
 Thresholding is used to simplify visual data for further analysis. In image processing, we need to pre-process the image data and get the important details. This technique is important to separate background image and foreground image.
 
-# Thresholding
+The function used for the threshold is given below:
+
+*cv2.threshold(img , 125, 255, cv2.THRESH_BINARY)*
+
+The first parameter is the image data, the second one is the threshold value, the third is the maximum value (generally 255) and the fourth one is the threshold technique. Let’s implement this in our code and observe how different techniques affect the image.
 
 # Blurring and Smoothing
 
