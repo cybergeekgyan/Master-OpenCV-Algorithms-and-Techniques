@@ -13,6 +13,8 @@ The function used for the threshold is given below:
 
 The first parameter is the image data, the second one is the threshold value, the third is the maximum value (generally 255) and the fourth one is the threshold technique. Let’s implement this in our code and observe how different techniques affect the image.
 
+![alt text](https://github.com/gyanprakash0221/OpenCV-Techniques/blob/main/Thresholding/threshold.png "threshold")
+
 # Blurring and Smoothing
 
 
