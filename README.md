@@ -29,11 +29,17 @@ There are different computer vision algorithms available to us which will blur t
 **cv2.medianBlur()** – This function uses median of the neighbouring pixels. Widely used in digital image processing as under certain conditions, it can preserve some edges while removing noise.<br>
 **cv2.bilateralFilter()** – In this method, sharp edges are preserved while the weak ones are discarded.<br>
 
+![alt text](https://github.com/gyanprakash0221/OpenCV-Techniques/blob/main/Blurring%20and%20Smoothing/blurring.png "blurring")
+
+
 # Color Filtering
 
 When you need information about a specific color, you can take out the color you want.
 
 This process is called **color filtering**. We can define a range of color which we want to focus at. For example – if you want to track a tennis ball in an image, we can filter out only green color from the image. This computer vision technique works better when the color that needs to be extracted is different from the background. 
+
+![alt text](https://github.com/gyanprakash0221/OpenCV-Techniques/blob/main/Color%20Filtering/color_filter.png "colorfiltering")
+
 
 *How to implement color filtering in your application.*
 
@@ -62,3 +68,6 @@ OpenCV contains the function cv2.Canny() for edge detection.
 cv2.Canny(img, 50, 150)
 
 First parameter is the image data, the second parameter is the lower threshold value and the third parameter is the upper threshold value. You need to try different values for tuning the edge detection algorithm.
+
+![alt text](https://github.com/gyanprakash0221/OpenCV-Techniques/blob/main/Edge%20DEtection/Edge-Detection.png "edgedetection")
+
