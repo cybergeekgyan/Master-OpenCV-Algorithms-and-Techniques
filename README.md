@@ -609,6 +609,7 @@ plt.show()
 import cv2 
 ```
 ```C++
+//C++
 #include<opencv2/opencv.hpp>
 #include<iostream>
 
@@ -638,6 +639,7 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 
+=> **C++:**
 ```C++
 Mat img = imread("test.jpg");
 
@@ -666,6 +668,7 @@ cv2.imshow("cropped", cropped_image)
 cv2.waitKey(0)
 cv2.destroyAllWindows() 
 ```
+
 //C++
 ```C++
 Mat crop = img(Range(80,280),Range(150,330)); // Slicing to crop the image
@@ -677,6 +680,7 @@ waitKey(0);
 destroyAllWindows();
 return 0;
 ```
+
 ![croppedimage](https://github.com/gyanprakash0221/OpenCV-Techniques/blob/main/CroppingImage/croppedimageresult.png)
 Cropped Image result
 
@@ -691,6 +695,7 @@ Cropped Image result
 
 *Check out the syntax in this example:*
 ```Python
+//Python
 cropped = img[start_row:end_row, start_col:end_col]
 ```
 => - *In C++, we use the **Range()** function to crop the image.*
@@ -700,6 +705,7 @@ cropped = img[start_row:end_row, start_col:end_col]
 
 *The following is the C++ syntax to crop an image:*
 ```C++
+//C++
 img(Range(start_row, end_row), Range(start_col, end_col))
 ```
 
