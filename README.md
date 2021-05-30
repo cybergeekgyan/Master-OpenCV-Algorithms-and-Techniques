@@ -887,8 +887,6 @@ cv2.destroyAllWindows()
 
 ![final result](https://github.com/gyanprakash0221/OpenCV-Techniques/blob/main/CroppingImage/seperateimagespatchescreated.jpg)
 
-The original image and the image patches are saved to the disk
-
 
 ### Some Interesting Applications using Cropping
 
