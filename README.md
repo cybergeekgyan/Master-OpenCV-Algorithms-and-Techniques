@@ -622,8 +622,9 @@ using namespace cv;
 
 **Cropping Using OpenCV**
 
-![croppingimage](https://github.com/gyanprakash0221/OpenCV-Techniques/blob/main/CroppingImage/croppingimage.png)
 The image that will be used for cropping in this post.
+![croppingimage](https://github.com/gyanprakash0221/OpenCV-Techniques/blob/main/CroppingImage/croppingimage.png)
+
 
 
 => **Python:**
@@ -682,7 +683,7 @@ return 0;
 ```
 
 ![croppedimage](https://github.com/gyanprakash0221/OpenCV-Techniques/blob/main/CroppingImage/croppedimageresult.png)
-Cropped Image result
+
 
 => - *In **Python,** you crop the image using the same method as NumPy array slicing.*
    - *To slice an array, you need to specify the start and end index of the first as well as the second dimension.* 
@@ -880,12 +881,12 @@ cv2.destroyAllWindows()
 **The final image with the rectangular patches overlayed on it will look something like this:**
 
 ![dividingimgpatchesresult](https://github.com/gyanprakash0221/OpenCV-Techniques/blob/main/CroppingImage/dividingimgpatchesresult.jpg)
-Result after dividing the image into patches
 
 
 **The following image shows the separate image patches that are saved to the disk.**
 
 ![final result](https://github.com/gyanprakash0221/OpenCV-Techniques/blob/main/CroppingImage/seperateimagespatchescreated.jpg)
+
 The original image and the image patches are saved to the disk
 
 
